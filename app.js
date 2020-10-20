@@ -20,16 +20,13 @@ console.log(cat.legs);
 console.log(dog.name);
 console.log(bird.enemies);
 
-function myFunction(arr) {
-    console.log(myFunction(arr));
-}
 
-var arr = [1,2,3,4,5,6,7,8];
-for (let i = 0; i < arr.length; i++) {
+
+let numberArray = [1,2,3,4,5,6,7,8];
+function myFunction(arr){
+for(let i = 0; i < arr.length; i++) {
   console.log(arr[i]);
 }
-
-
-function myFunction(arr) {
-    console.log(myFunction(arr));
 }
+myFunction(numberArray);
+
